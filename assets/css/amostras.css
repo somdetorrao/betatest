@@ -1,0 +1,21 @@
+
+
+.decoration{
+    list-style-type: none;
+}
+audio{
+    width: 47vw;
+    height: 5vh;
+    transition: .8s ease;
+    filter:invert(0);
+}
+
+audio:hover{
+    opacity: .7;
+    transform: scale(1.1);
+    filter:invert(100);
+}
+
+.ajuste{
+    margin-right: 55px;
+}

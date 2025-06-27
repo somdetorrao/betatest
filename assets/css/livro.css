@@ -1,0 +1,33 @@
+.portada-mobile{
+    background: url("../images/amostras_capa.JPG") ;
+    background-size: cover;
+    background-position: 38%;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 2rem;
+    filter: grayscale(127);
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #333;
+
+
+}
+.portada-mobile:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.desktop-fit{
+    padding-left: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}

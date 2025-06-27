@@ -1,0 +1,164 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: "Alumni Sans SC", sans-serif;
+ letter-spacing: 2px;
+ z-index: 0;
+
+}
+
+
+.button-container button{
+    position: absolute;
+    z-index: 1000;
+    top: 1.5rem;
+    background-color: transparent;
+
+}
+
+#toggle-menu{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: -100%;
+    top:0;
+    /* padding: 2rem 0; */
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    
+
+}
+
+
+#toggle-menu .toggle-menu-container{
+margin-top: 5rem;
+}
+
+
+#toggle-menu .toggle-menu-item{
+padding: .7rem;
+list-style-type: none;
+text-align: left;
+transition: .4s ease-in-out;
+
+}
+
+#toggle-menu .toggle-menu-link{
+font-size: 2rem;
+text-decoration: none;
+color: #fff;
+font-weight: 700;
+transition: .4s ease-in-out;
+
+}
+
+.background-container{
+
+ background: url("../images/torrao_1.JPG");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ filter: contrast(100%) brightness(100%) grayscale(127);
+ opacity: .9;
+ width: 100%;
+ height: 100%;
+}
+
+
+
+.icono-nav{
+    width: 3.5rem;
+    height: 2.1rem;     
+}
+
+
+
+
+
+
+
+/*Header*/
+
+.frame-header{
+
+    border-radius: 90px;
+    
+}
+
+/*main*/
+
+.audio-box{
+    opacity: 0.01;
+    height: 20vh;
+    transition: .6s ease-in-out .1s;
+}
+
+.audio-box:hover{
+    opacity: 0.5;
+}
+
+/*link en imagen*/
+
+.img-link{
+    filter: saturate(1);
+    opacity: 1;
+transition: .4s ease;    
+
+}
+
+.img-link:hover{
+    filter:saturate(1.5);
+    opacity: .7;
+}
+
+/*footer*/
+
+.email-footer{
+    color:#a2a2a2a2;
+}
+
+
+.email{
+
+    display: block;
+    margin: 1.2rem;
+    text-decoration:none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: .85;
+    transition: .3s ease;
+
+}
+
+.email:hover{
+    opacity: .5;
+}
+
+
+
+/*Styling*/
+
+.footer-style-font{
+
+    letter-spacing: 10px;
+
+}
+
+.tenue{
+    opacity: .25;
+
+}

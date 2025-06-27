@@ -1,0 +1,24 @@
+.elemento-select{
+    background: url('../images/DSC_0380.JPG') no-repeat center center/ cover;
+    width: 100%;
+    height: 40vh;
+    opacity:.2;
+    transition: .5s ease-in-out;
+    
+}
+
+.elemento-select:hover{
+    opacity: 1;
+   
+    
+}
+
+.elemento-select:active{
+    transition: .1s ease;
+    transform: scale(.96);
+
+}
+
+.list-group{
+    list-style-type: none;
+}

@@ -1,0 +1,148 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: "Alumni Sans SC", sans-serif;
+ letter-spacing: 2px;
+ z-index: 0;
+
+}
+
+body.no-scroll, html.no-scroll{
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.button-container button{
+    position: relative;
+    z-index: 1000;
+    top: 1.5rem;
+
+    background-color: transparent;
+    opacity: 1;
+    transition: color .5s ease-in-out, opacity .5s ease-in-out;
+
+}
+
+.button-container button:hover{
+    opacity: .3;
+        color: #ddd;
+}
+
+#toggle-menu{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top:0;
+    /* padding: 2rem 0; */
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    transform: translateX(-100%);
+    transition: transform 1.5s ease-in-out, opacity 1.2s ease-in-out;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#toggle-menu.visible{
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.background-container{
+ background: url("../images/amostras_capa.JPG");
+ background-size: cover;
+ background-position: 4%;
+ background-repeat: no-repeat;
+ filter: contrast(100%) grayscale(127);
+ opacity: .9;
+ width: 100%;
+ height: 100%;
+}
+
+
+#toggle-menu .toggle-menu-container{
+margin-top: 7rem;
+}
+
+
+#toggle-menu .toggle-menu-item{
+padding: .7rem;
+list-style-type: none;
+text-align: left;
+transition: .4s ease-in-out;
+
+}
+
+#toggle-menu .toggle-menu-link{
+font-size: 2rem;
+text-decoration: none;
+color: #222;
+font-weight: 700;
+transition: .4s ease-in-out;
+
+}
+
+.icono-nav{
+    width: 3.5rem;
+    height: 2.1rem;     
+}
+
+
+
+
+
+
+
+/*footer*/
+
+.email-footer{
+    color:#a2a2a2a2;
+}
+
+
+.email{
+
+    display: block;
+    margin: 1.2rem;
+    text-decoration:none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: .85;
+    transition: .3s ease;
+
+}
+
+.email:hover{
+    opacity: .5;
+}
+
+
+
+/*Styling*/
+
+.footer-style-font{
+
+    letter-spacing: 10px;
+
+}
+
+.tenue{
+    opacity: .25;
+
+}
