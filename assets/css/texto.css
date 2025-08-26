@@ -22,7 +22,9 @@
 
 /*solucionar problema con visionado de icono*/
 .button-container{
-position: relative
+position: relative;
+top: 10px;
+left: 10px;
 }
 
 #toggle-menu{

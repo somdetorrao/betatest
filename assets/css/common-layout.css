@@ -24,18 +24,20 @@ body.no-scroll, html.no-scroll{
 .button-container button{
     position: relative;
     z-index: 1000;
-    top: 1.5rem;
-
+    top: 10px;
+    left: 10px;
+    color: transparent;
     background-color: transparent;
-    opacity: 1;
     transition: color .5s ease-in-out, opacity .5s ease-in-out;
 
 }
 
 .button-container button:hover{
-    opacity: .3;
-        color: #ddd;
+    opacity: .1;
+    color:#333;
 }
+
+
 
 #toggle-menu{
     position: fixed;
@@ -99,7 +101,7 @@ transition: .4s ease-in-out;
 
 .icono-nav{
     width: 3.5rem;
-    height: 2.1rem;     
+    height: 2.1rem;    
 }
 
 

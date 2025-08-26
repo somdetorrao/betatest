@@ -16,13 +16,7 @@ font-family: "Alumni Sans SC", sans-serif;
 }
 
 
-.button-container button{
-    position: absolute;
-    z-index: 1000;
-    top: 1.5rem;
-    background-color: transparent;
 
-}
 
 #toggle-menu{
     position: fixed;
