@@ -28,9 +28,26 @@ const moveMenu = () =>{
         }
 
         isVisible = !isVisible;
+
+
      
 
     });
+            if(theDiv){
+                theDiv.addEventListener('click', ()=>{
+
+                if (isVisible){
+                    theDiv.classList.remove("visible");
+                    theBody.classList.remove("no-scroll");
+                    theHTML.classList.remove("no-scroll");
+                    isVisible = false;
+                }
+
+ 
+            })
+            }
+
+
     
 }
 
